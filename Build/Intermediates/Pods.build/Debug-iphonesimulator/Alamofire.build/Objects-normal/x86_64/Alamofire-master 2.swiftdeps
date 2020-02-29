@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "6554376bfc1eca62fc025f236a8b2000"
-build_time: [1582936958, 392084000]
+build_time: [1582949736, 376878000]
 inputs:
   "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/AFError.swift": [1582325592, 984447556]
   "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/Alamofire.swift": [1582325593, 9261374]
