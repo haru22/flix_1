@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "52f4fc4bb240497957291cad57f20f1e"
+build_time: [1582936962, 238307000]
+inputs:
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/AlamofireImage/Source/AFIError.swift": [1582325593, 21903788]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/AlamofireImage/Source/Image.swift": [1582325593, 22679686]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/AlamofireImage/Source/ImageCache.swift": [1582325593, 20071775]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/AlamofireImage/Source/ImageDownloader.swift": [1582325593, 24716827]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/AlamofireImage/Source/ImageFilter.swift": [1582325593, 27443128]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [1582325593, 26656619]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [1582325593, 23692647]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [1582325593, 21112416]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [1582325593, 25496290]

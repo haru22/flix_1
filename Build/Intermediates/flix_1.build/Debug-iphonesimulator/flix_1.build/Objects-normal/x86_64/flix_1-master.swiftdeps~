@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "fef98cdafdbc38083353de84386889cb"
+build_time: [1582939169, 890966000]
+inputs:
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/MovieDetailsViewController.swift": [1582939167, 311178829]
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/AppDelegate.swift": [1582318637, 357396617]
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/SceneDelegate.swift": [1582318637, 361301190]
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/MovieCell.swift": [1582323660, 173431770]
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/MoviesViewController.swift": [1582937683, 391767841]
