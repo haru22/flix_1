@@ -13,6 +13,6 @@
 
 ### App Walkthrough GIF
 
-<img src="https://imgflip.com/gif/3qyfyc" width=250><br>
+<a href="https://imgflip.com/gif/3qyfyc"><img src="https://imgflip.com/gif/3qyfyc" width=250><br>
 
 
