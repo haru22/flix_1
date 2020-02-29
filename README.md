@@ -13,3 +13,4 @@
 
 ### App Walkthrough GIF
 <img src="https://imgflip.com/gif/3qyfyc" width=250><br>
+![Uploading 3qyfyc.gif…]()
