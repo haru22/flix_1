@@ -13,6 +13,37 @@ provides-member:
 - ["14AlamofireImage0B10DownloaderC22DownloadPrioritizationO", ""]
 - ["14AlamofireImage0B10DownloaderC15ResponseHandlerC", ""]
 provides-dynamic-lookup:
+- "activeRequestCount"
+- "addAuthentication"
+- "cancelRequest"
+- "credential"
+- "default"
+- "defaultURLCache"
+- "defaultURLSessionConfiguration"
+- "dequeue"
+- "download"
+- "downloadPrioritization"
+- "enqueue"
+- "handlerID"
+- "imageCache"
+- "imageResponseSerializer"
+- "isActiveRequestCountBelowMaximumLimit"
+- "maximumActiveDownloads"
+- "operations"
+- "queuedRequests"
+- "receiptID"
+- "request"
+- "responseHandlers"
+- "responseQueue"
+- "safelyDecrementActiveRequestCount"
+- "safelyFetchResponseHandler"
+- "safelyRemoveResponseHandler"
+- "safelyStartNextRequestIfNecessary"
+- "sessionManager"
+- "start"
+- "synchronizationQueue"
+- "urlID"
+- "urlIdentifier"
 depends-top-level:
 - !private "!"
 - !private "&&"
@@ -130,6 +161,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "async"]
 - !private ["s28CustomDebugStringConvertibleP", "authenticate"]
 - !private ["s28CustomDebugStringConvertibleP", "cachePolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
 - !private ["s28CustomDebugStringConvertibleP", "cancel"]
 - !private ["s28CustomDebugStringConvertibleP", "compactMap"]
 - !private ["s28CustomDebugStringConvertibleP", "data"]
@@ -170,6 +202,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "authenticate"]
 - !private ["s17CustomReflectableP", "cachePolicy"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
 - !private ["s17CustomReflectableP", "compactMap"]
 - !private ["s17CustomReflectableP", "downloadProgress"]
 - !private ["s17CustomReflectableP", "first"]
@@ -254,6 +287,7 @@ depends-member:
 - !private ["Se", "absoluteString"]
 - !private ["Se", "append"]
 - !private ["Se", "authenticate"]
+- !private ["Se", "callAsFunction"]
 - !private ["Se", "compactMap"]
 - !private ["Se", "downloadProgress"]
 - !private ["Se", "first"]
@@ -290,6 +324,7 @@ depends-member:
 - !private ["SE", "absoluteString"]
 - !private ["SE", "append"]
 - !private ["SE", "authenticate"]
+- !private ["SE", "callAsFunction"]
 - !private ["SE", "compactMap"]
 - !private ["SE", "downloadProgress"]
 - !private ["SE", "first"]
@@ -316,6 +351,7 @@ depends-member:
 - !private ["SQ", "authenticate"]
 - !private ["SQ", "cachePolicy"]
 - !private ["SQ", "cachesDirectory"]
+- !private ["SQ", "callAsFunction"]
 - !private ["SQ", "compactMap"]
 - ["SQ", "concurrent"]
 - !private ["SQ", "default"]
@@ -369,6 +405,7 @@ depends-member:
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "authenticate"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
 - !private ["s23ExpressibleByNilLiteralP", "downloadProgress"]
 - !private ["s23ExpressibleByNilLiteralP", "response"]
 - !private ["s23ExpressibleByNilLiteralP", "suspended"]
@@ -389,6 +426,7 @@ depends-member:
 - !private ["SH", "authenticate"]
 - !private ["SH", "cachePolicy"]
 - !private ["SH", "cachesDirectory"]
+- !private ["SH", "callAsFunction"]
 - !private ["SH", "compactMap"]
 - !private ["SH", "default"]
 - !private ["SH", "downloadProgress"]
@@ -463,6 +501,7 @@ depends-member:
 - ["14AlamofireImage0B10DownloaderC", "default"]
 - ["14AlamofireImage0B10DownloaderC", "defaultURLCache"]
 - ["14AlamofireImage0B10DownloaderC", "defaultURLSessionConfiguration"]
+- ["14AlamofireImage0B10DownloaderC", "deinit"]
 - ["14AlamofireImage0B10DownloaderC", "dequeue"]
 - ["14AlamofireImage0B10DownloaderC", "download"]
 - ["14AlamofireImage0B10DownloaderC", "downloadPrioritization"]
@@ -559,6 +598,7 @@ depends-member:
 - ["s9OptionSetP", "concurrent"]
 - !private ["s9OptionSetP", "userDomainMask"]
 - !private ["Sq", "authenticate"]
+- !private ["Sq", "callAsFunction"]
 - !private ["Sq", "downloadProgress"]
 - !private ["Sq", "response"]
 - !private ["Sq", "suspended"]
@@ -607,6 +647,7 @@ depends-member:
 - !private ["9Alamofire7RequestC", "validate"]
 - ["14AlamofireImage14RequestReceiptC", "Request"]
 - ["14AlamofireImage14RequestReceiptC", "String"]
+- ["14AlamofireImage14RequestReceiptC", "deinit"]
 - ["14AlamofireImage14RequestReceiptC", "init"]
 - ["14AlamofireImage14RequestReceiptC", "receiptID"]
 - ["14AlamofireImage14RequestReceiptC", "request"]
@@ -621,6 +662,7 @@ depends-member:
 - !private ["14AlamofireImage0B10DownloaderC15ResponseHandlerC", "ImageDownloader"]
 - ["14AlamofireImage0B10DownloaderC15ResponseHandlerC", "ImageFilter"]
 - ["14AlamofireImage0B10DownloaderC15ResponseHandlerC", "String"]
+- ["14AlamofireImage0B10DownloaderC15ResponseHandlerC", "deinit"]
 - ["14AlamofireImage0B10DownloaderC15ResponseHandlerC", "handlerID"]
 - ["14AlamofireImage0B10DownloaderC15ResponseHandlerC", "init"]
 - ["14AlamofireImage0B10DownloaderC15ResponseHandlerC", "operations"]
@@ -753,6 +795,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "authenticate"]
 - !private ["s21_ObjectiveCBridgeableP", "cachePolicy"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
 - !private ["s21_ObjectiveCBridgeableP", "compactMap"]
 - !private ["s21_ObjectiveCBridgeableP", "downloadProgress"]
 - !private ["s21_ObjectiveCBridgeableP", "first"]
@@ -868,19 +911,6 @@ depends-nominal:
 - !private "s26_OptionalNilComparisonTypeV"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
@@ -900,17 +930,17 @@ depends-external:
 - "/Users/haruna/Documents/iOSdev/flix_1/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/haruna/Documents/iOSdev/flix_1/Build/Intermediates/Pods.build/Debug-iphonesimulator/AlamofireImage.build/unextended-module.modulemap"
 - "/Users/haruna/Documents/iOSdev/flix_1/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "496720e48562cbab5785ceb700f91cd5"
