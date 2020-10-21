@@ -228,6 +228,8 @@ SWIFT_CLASS("_TtC6flix_19MovieCell")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified synopsisLabel;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified posterView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified voteLable;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified printLabel;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);

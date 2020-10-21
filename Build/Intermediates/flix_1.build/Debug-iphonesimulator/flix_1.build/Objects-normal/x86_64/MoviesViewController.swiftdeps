@@ -55,6 +55,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "synopsisLabel"]
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["So15CALayerDelegateP", "titleLabel"]
+- !private ["So15CALayerDelegateP", "voteLable"]
 - !private ["s7CVarArgP", "JSONSerialization"]
 - !private ["s7CVarArgP", "OperationQueue"]
 - ["s7CVarArgP", "String"]
@@ -109,11 +110,13 @@ depends-member:
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
+- !private ["s7CVarArgP", "voteLable"]
 - !private ["So23NSURLRequestCachePolicyV", "reloadIgnoringLocalCacheData"]
 - !private ["Sl", "count"]
 - ["Sl", "init"]
 - !private ["Sl", "row"]
 - !private ["Sl", "subscript"]
+- !private ["SL", "init"]
 - !private ["SL", "row"]
 - !private ["10Foundation15ContiguousBytesP", "count"]
 - ["10Foundation15ContiguousBytesP", "init"]
@@ -173,6 +176,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", "viewForZooming"]
 - ["s28CustomDebugStringConvertibleP", "viewForZoomingInScrollView"]
+- !private ["s28CustomDebugStringConvertibleP", "voteLable"]
 - !private ["s17CustomReflectableP", "af_setImage"]
 - !private ["s17CustomReflectableP", "count"]
 - !private ["s17CustomReflectableP", "dataSource"]
@@ -239,6 +243,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", "viewForZooming"]
 - ["s23CustomStringConvertibleP", "viewForZoomingInScrollView"]
+- !private ["s23CustomStringConvertibleP", "voteLable"]
 - !private ["10Foundation12DataProtocolP", "count"]
 - ["10Foundation12DataProtocolP", "init"]
 - !private ["10Foundation12DataProtocolP", "subscript"]
@@ -321,12 +326,14 @@ depends-member:
 - !private ["SQ", "viewDidLoad"]
 - ["SQ", "viewForZooming"]
 - ["SQ", "viewForZoomingInScrollView"]
+- !private ["SQ", "voteLable"]
 - !private ["s5ErrorP", "localizedDescription"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "af_setImage"]
 - !private ["s23ExpressibleByNilLiteralP", "dataSource"]
 - !private ["s23ExpressibleByNilLiteralP", "delegate"]
@@ -334,6 +341,9 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "indexPath"]
 - !private ["s23ExpressibleByNilLiteralP", "reloadData"]
 - !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["SH", "JSONSerialization"]
 - !private ["SH", "OperationQueue"]
 - ["SH", "String"]
@@ -390,11 +400,15 @@ depends-member:
 - !private ["SH", "viewDidLoad"]
 - ["SH", "viewForZooming"]
 - ["SH", "viewForZoomingInScrollView"]
+- !private ["SH", "voteLable"]
 - !private ["10Foundation9IndexPathV", "row"]
 - !private ["So19NSJSONSerializationC", "jsonObject"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - !private ["6flix_19MovieCellC", "posterView"]
 - !private ["6flix_19MovieCellC", "synopsisLabel"]
 - !private ["6flix_19MovieCellC", "titleLabel"]
+- !private ["6flix_19MovieCellC", "voteLable"]
 - !private ["6flix_126MovieDetailsViewControllerC", "movie"]
 - ["6flix_120MoviesViewControllerC", "IndexPath"]
 - ["6flix_120MoviesViewControllerC", "Int"]
@@ -490,6 +504,7 @@ depends-member:
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", "viewForZooming"]
 - ["So8NSCodingP", "viewForZoomingInScrollView"]
+- !private ["So8NSCodingP", "voteLable"]
 - !private ["So9NSCopyingP", "default"]
 - !private ["So9NSCopyingP", "resume"]
 - !private ["So26NSExtensionRequestHandlingP", "JSONSerialization"]
@@ -585,6 +600,7 @@ depends-member:
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectC", "viewForZooming"]
 - ["So8NSObjectC", "viewForZoomingInScrollView"]
+- !private ["So8NSObjectC", "voteLable"]
 - !private ["So8NSObjectP", "JSONSerialization"]
 - !private ["So8NSObjectP", "OperationQueue"]
 - ["So8NSObjectP", "String"]
@@ -637,6 +653,7 @@ depends-member:
 - !private ["So8NSObjectP", "viewDidLoad"]
 - ["So8NSObjectP", "viewForZooming"]
 - ["So8NSObjectP", "viewForZoomingInScrollView"]
+- !private ["So8NSObjectP", "voteLable"]
 - !private ["So16NSOperationQueueC", "main"]
 - !private ["Sq", "af_setImage"]
 - !private ["Sq", "dataSource"]
@@ -662,6 +679,10 @@ depends-member:
 - ["ST", "init"]
 - !private ["ST", "row"]
 - !private ["ST", "subscript"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "af_setImage"]
 - !private ["So29UIAccessibilityIdentificationP", "af_setImage"]
 - !private ["So29UIAccessibilityIdentificationP", "dataSource"]
@@ -674,6 +695,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "synopsisLabel"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So29UIAccessibilityIdentificationP", "titleLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "voteLable"]
 - !private ["So12UIAppearanceP", "af_setImage"]
 - !private ["So12UIAppearanceP", "dataSource"]
 - !private ["So12UIAppearanceP", "delegate"]
@@ -685,6 +707,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "synopsisLabel"]
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So12UIAppearanceP", "titleLabel"]
+- !private ["So12UIAppearanceP", "voteLable"]
 - !private ["So21UIAppearanceContainerP", "JSONSerialization"]
 - !private ["So21UIAppearanceContainerP", "OperationQueue"]
 - ["So21UIAppearanceContainerP", "String"]
@@ -730,6 +753,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", "viewForZooming"]
 - ["So21UIAppearanceContainerP", "viewForZoomingInScrollView"]
+- !private ["So21UIAppearanceContainerP", "voteLable"]
 - !private ["So18UIContentContainerP", "JSONSerialization"]
 - !private ["So18UIContentContainerP", "OperationQueue"]
 - ["So18UIContentContainerP", "String"]
@@ -776,6 +800,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "synopsisLabel"]
 - !private ["So17UICoordinateSpaceP", "text"]
 - !private ["So17UICoordinateSpaceP", "titleLabel"]
+- !private ["So17UICoordinateSpaceP", "voteLable"]
 - !private ["So23UIDataSourceTranslatingP", "dataSource"]
 - !private ["So23UIDataSourceTranslatingP", "delegate"]
 - !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
@@ -793,6 +818,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "synopsisLabel"]
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So13UIDynamicItemP", "titleLabel"]
+- !private ["So13UIDynamicItemP", "voteLable"]
 - !private ["So18UIFocusEnvironmentP", "JSONSerialization"]
 - !private ["So18UIFocusEnvironmentP", "OperationQueue"]
 - ["So18UIFocusEnvironmentP", "String"]
@@ -838,6 +864,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", "viewForZooming"]
 - ["So18UIFocusEnvironmentP", "viewForZoomingInScrollView"]
+- !private ["So18UIFocusEnvironmentP", "voteLable"]
 - !private ["So11UIFocusItemP", "af_setImage"]
 - !private ["So11UIFocusItemP", "dataSource"]
 - !private ["So11UIFocusItemP", "delegate"]
@@ -849,6 +876,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "synopsisLabel"]
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So11UIFocusItemP", "titleLabel"]
+- !private ["So11UIFocusItemP", "voteLable"]
 - !private ["So20UIFocusItemContainerP", "af_setImage"]
 - !private ["So20UIFocusItemContainerP", "dataSource"]
 - !private ["So20UIFocusItemContainerP", "delegate"]
@@ -860,6 +888,7 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "synopsisLabel"]
 - !private ["So20UIFocusItemContainerP", "text"]
 - !private ["So20UIFocusItemContainerP", "titleLabel"]
+- !private ["So20UIFocusItemContainerP", "voteLable"]
 - !private ["So30UIFocusItemScrollableContainerP", "dataSource"]
 - !private ["So30UIFocusItemScrollableContainerP", "delegate"]
 - !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCell"]
@@ -869,6 +898,7 @@ depends-member:
 - !private ["So27UIGestureRecognizerDelegateP", "posterView"]
 - !private ["So27UIGestureRecognizerDelegateP", "synopsisLabel"]
 - !private ["So27UIGestureRecognizerDelegateP", "titleLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "voteLable"]
 - !private ["So11UIImageViewC", "af_setImage"]
 - !private ["So7UILabelC", "text"]
 - !private ["So24UILargeContentViewerItemP", "af_setImage"]
@@ -882,6 +912,7 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "synopsisLabel"]
 - !private ["So24UILargeContentViewerItemP", "text"]
 - !private ["So24UILargeContentViewerItemP", "titleLabel"]
+- !private ["So24UILargeContentViewerItemP", "voteLable"]
 - !private ["So30UIPasteConfigurationSupportingP", "JSONSerialization"]
 - !private ["So30UIPasteConfigurationSupportingP", "OperationQueue"]
 - ["So30UIPasteConfigurationSupportingP", "String"]
@@ -927,6 +958,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZooming"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZoomingInScrollView"]
+- !private ["So30UIPasteConfigurationSupportingP", "voteLable"]
 - ["So11UIResponderC", "IndexPath"]
 - ["So11UIResponderC", "Int"]
 - !private ["So11UIResponderC", "JSONSerialization"]
@@ -980,6 +1012,7 @@ depends-member:
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So11UIResponderC", "viewForZooming"]
 - ["So11UIResponderC", "viewForZoomingInScrollView"]
+- !private ["So11UIResponderC", "voteLable"]
 - !private ["So30UIResponderStandardEditActionsP", "JSONSerialization"]
 - !private ["So30UIResponderStandardEditActionsP", "OperationQueue"]
 - ["So30UIResponderStandardEditActionsP", "String"]
@@ -1025,6 +1058,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "viewForZooming"]
 - ["So30UIResponderStandardEditActionsP", "viewForZoomingInScrollView"]
+- !private ["So30UIResponderStandardEditActionsP", "voteLable"]
 - !private ["So12UIScrollViewC", "dataSource"]
 - !private ["So12UIScrollViewC", "delegate"]
 - !private ["So12UIScrollViewC", "dequeueReusableCell"]
@@ -1113,6 +1147,7 @@ depends-member:
 - !private ["So15UITableViewCellC", "posterView"]
 - !private ["So15UITableViewCellC", "synopsisLabel"]
 - !private ["So15UITableViewCellC", "titleLabel"]
+- !private ["So15UITableViewCellC", "voteLable"]
 - !private ["So21UITableViewDataSourceP", "JSONSerialization"]
 - !private ["So21UITableViewDataSourceP", "OperationQueue"]
 - ["So21UITableViewDataSourceP", "String"]
@@ -1222,6 +1257,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "viewForZooming"]
 - ["So18UITraitEnvironmentP", "viewForZoomingInScrollView"]
+- !private ["So18UITraitEnvironmentP", "voteLable"]
 - !private ["So23UIUserActivityRestoringP", "JSONSerialization"]
 - !private ["So23UIUserActivityRestoringP", "OperationQueue"]
 - ["So23UIUserActivityRestoringP", "String"]
@@ -1267,6 +1303,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", "viewForZooming"]
 - ["So23UIUserActivityRestoringP", "viewForZoomingInScrollView"]
+- !private ["So23UIUserActivityRestoringP", "voteLable"]
 - !private ["So6UIViewC", "af_setImage"]
 - !private ["So6UIViewC", "dataSource"]
 - !private ["So6UIViewC", "delegate"]
@@ -1278,6 +1315,7 @@ depends-member:
 - !private ["So6UIViewC", "synopsisLabel"]
 - !private ["So6UIViewC", "text"]
 - !private ["So6UIViewC", "titleLabel"]
+- !private ["So6UIViewC", "voteLable"]
 - ["So16UIViewControllerC", "IndexPath"]
 - ["So16UIViewControllerC", "Int"]
 - !private ["So16UIViewControllerC", "JSONSerialization"]
@@ -1337,6 +1375,9 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "count"]
 - ["s24_DestructorSafeContainerP", "init"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["s19_HasContiguousBytesP", "count"]
 - ["s19_HasContiguousBytesP", "init"]
@@ -1396,6 +1437,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZooming"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZoomingInScrollView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "voteLable"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONSerialization"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OperationQueue"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
@@ -1448,6 +1490,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZooming"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZoomingInScrollView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "voteLable"]
 - !private ["s21_ObjectiveCBridgeableP", "af_setImage"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "dataSource"]
@@ -1470,6 +1513,7 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "synopsisLabel"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "titleLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "voteLable"]
 depends-nominal:
 - "Sa"
 - "SK"
@@ -1490,10 +1534,16 @@ depends-nominal:
 - !private "s5ErrorP"
 - "s25ExpressibleByArrayLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
 - !private "10Foundation9IndexPathV"
 - !private "So19NSJSONSerializationC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - !private "6flix_19MovieCellC"
 - !private "6flix_126MovieDetailsViewControllerC"
 - "6flix_120MoviesViewControllerC"
@@ -1513,6 +1563,10 @@ depends-nominal:
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "7Combine9SchedulerP"
 - "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
@@ -1557,6 +1611,9 @@ depends-nominal:
 - "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - "s19_HasContiguousBytesP"
 - "s35_HasCustomAnyHashableRepresentationP"

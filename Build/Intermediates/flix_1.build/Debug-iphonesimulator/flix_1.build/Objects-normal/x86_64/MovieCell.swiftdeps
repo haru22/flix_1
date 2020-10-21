@@ -8,9 +8,11 @@ provides-member:
 provides-dynamic-lookup:
 - "awakeFromNib"
 - "posterView"
+- "printLabel"
 - "setSelected"
 - "synopsisLabel"
 - "titleLabel"
+- "voteLable"
 depends-top-level:
 - "Bool"
 - "MovieCell"
@@ -43,9 +45,11 @@ depends-member:
 - ["6flix_19MovieCellC", "deinit"]
 - ["6flix_19MovieCellC", "init"]
 - ["6flix_19MovieCellC", "posterView"]
+- ["6flix_19MovieCellC", "printLabel"]
 - ["6flix_19MovieCellC", "setSelected"]
 - ["6flix_19MovieCellC", "synopsisLabel"]
 - ["6flix_19MovieCellC", "titleLabel"]
+- ["6flix_19MovieCellC", "voteLable"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "awakeFromNib"]
 - !private ["So8NSCodingP", "setSelected"]
@@ -55,9 +59,11 @@ depends-member:
 - ["So8NSObjectC", "awakeFromNib"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "posterView"]
+- ["So8NSObjectC", "printLabel"]
 - ["So8NSObjectC", "setSelected"]
 - ["So8NSObjectC", "synopsisLabel"]
 - ["So8NSObjectC", "titleLabel"]
+- ["So8NSObjectC", "voteLable"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "awakeFromNib"]
 - !private ["So8NSObjectP", "setSelected"]
@@ -100,9 +106,11 @@ depends-member:
 - ["So11UIResponderC", "awakeFromNib"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "posterView"]
+- ["So11UIResponderC", "printLabel"]
 - ["So11UIResponderC", "setSelected"]
 - ["So11UIResponderC", "synopsisLabel"]
 - ["So11UIResponderC", "titleLabel"]
+- ["So11UIResponderC", "voteLable"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
 - !private ["So30UIResponderStandardEditActionsP", "setSelected"]
@@ -113,9 +121,11 @@ depends-member:
 - ["So15UITableViewCellC", "awakeFromNib"]
 - ["So15UITableViewCellC", "init"]
 - ["So15UITableViewCellC", "posterView"]
+- ["So15UITableViewCellC", "printLabel"]
 - ["So15UITableViewCellC", "setSelected"]
 - ["So15UITableViewCellC", "synopsisLabel"]
 - ["So15UITableViewCellC", "titleLabel"]
+- ["So15UITableViewCellC", "voteLable"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "awakeFromNib"]
 - !private ["So18UITraitEnvironmentP", "setSelected"]
@@ -128,9 +138,11 @@ depends-member:
 - ["So6UIViewC", "awakeFromNib"]
 - ["So6UIViewC", "init"]
 - ["So6UIViewC", "posterView"]
+- ["So6UIViewC", "printLabel"]
 - ["So6UIViewC", "setSelected"]
 - ["So6UIViewC", "synopsisLabel"]
 - ["So6UIViewC", "titleLabel"]
+- ["So6UIViewC", "voteLable"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
@@ -207,4 +219,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d939f6a803beb90d09acb93fe6a33095"
+interface-hash: "0c147e091196f6201fd4755069c3438a"
