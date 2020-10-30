@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "3cdf4d610d772ac02549f09c022fbf23"
+build_time: [1604071936, 148154000]
+inputs:
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/AFError.swift": [1582325592, 984447556]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/Alamofire.swift": [1582325593, 9261374]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1582325592, 981085418]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/MultipartFormData.swift": [1582325592, 977887258]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1582325592, 979385412]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/Notifications.swift": [1582325592, 986091903]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/ParameterEncoding.swift": [1582325592, 983295549]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/Request.swift": [1582325593, 10483074]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/Response.swift": [1582325593, 7573963]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/ResponseSerialization.swift": [1582325593, 12493699]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/Result.swift": [1582325592, 982453241]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1582325593, 13226186]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/SessionDelegate.swift": [1582325593, 13743952]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/SessionManager.swift": [1582325593, 11448829]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/TaskDelegate.swift": [1582325592, 977033427]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/Timeline.swift": [1582325592, 980175080]
+  "/Users/haruna/Documents/iOSdev/flix_1/Pods/Alamofire/Source/Validation.swift": [1582325592, 985294266]

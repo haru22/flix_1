@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "830e2f87162e5c139bbbc7687e5a8e52"
-build_time: [1603255061, 987333000]
+build_time: [1604072779, 499317000]
 inputs:
   "/Users/haruna/Documents/iOSdev/flix_1/Pods/AlamofireImage/Source/AFIError.swift": [1582325593, 21903788]
   "/Users/haruna/Documents/iOSdev/flix_1/Pods/AlamofireImage/Source/Image.swift": [1582325593, 22679686]

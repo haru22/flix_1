@@ -9,7 +9,7 @@
 import UIKit
 import AlamofireImage
 
-class MovieGridViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class MovieGridViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -22,6 +22,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         collectionView.dataSource = self
         
         let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
+        layout.scrollDirection = .horizontal
         layout.minimumLineSpacing = 4
         layout.minimumInteritemSpacing = 4
         
@@ -49,31 +50,42 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         task.resume()
     }
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return movies.count
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MovieGridCell", for: indexPath) as! MovieGridCell
-       
-        let movie = movies[indexPath.item]
-        let baseUrl = "https://image.tmdb.org/t/p/w185"
-        let posterPath = movie["poster_path"] as! String
-        let posterUrl = URL(string: baseUrl + posterPath)
-        
-        cell.posterView.af_setImage(withURL: posterUrl!)
-        return cell
-    }
-    
+   
 
-    /*
-    // MARK: - Navigation
+
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        // find the selected superhero movie
+        let cell = sender as! UICollectionViewCell
+        let indexPath = collectionView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        // pass the selected movie to detailsviewController
+        let detailsVC = segue.destination as! DetailsViewController
+        detailsVC.movie = movie
+        collectionView.deselectItem(at: indexPath, animated: true)
     }
-    */
 
+
+}
+
+extension MovieGridViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+           return movies.count
+       }
+       
+       func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+           let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MovieGridCell", for: indexPath) as! MovieGridCell
+          
+           let movie = movies[indexPath.item]
+           let baseUrl = "https://image.tmdb.org/t/p/w185"
+           let posterPath = movie["poster_path"] as! String
+           let posterUrl = URL(string: baseUrl + posterPath)
+           
+           cell.posterView.af_setImage(withURL: posterUrl!)
+           return cell
+       }
+       
 }

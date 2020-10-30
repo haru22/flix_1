@@ -39,28 +39,29 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="BjW-8C-8N8">
-                                    <size key="itemSize" width="182" height="227"/>
+                                    <size key="itemSize" width="182" height="219"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MovieGridCell" id="pIp-zp-TRl" customClass="MovieGridCell" customModule="flix_1" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="182" height="227"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="182" height="219"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="nJr-fa-UsT">
-                                            <rect key="frame" x="0.0" y="0.0" width="182" height="227"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="182" height="219"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5xb-rc-Rzn">
-                                                    <rect key="frame" x="0.0" y="0.0" width="183" height="227"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="182" height="202"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="182" height="227"/>
+                                        <size key="customSize" width="182" height="219"/>
                                         <connections>
                                             <outlet property="posterView" destination="5xb-rc-Rzn" id="nxx-K7-Rdh"/>
+                                            <segue destination="JAg-Sf-4Bw" kind="show" id="GKS-8d-CuR"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -76,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oEV-qa-Anw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="436.14130434782612" y="778.26086956521749"/>
+            <point key="canvasLocation" x="434.78260869565219" y="777.71739130434787"/>
         </scene>
         <!--Movies-->
         <scene sceneID="tne-QT-ifu">
@@ -221,6 +222,52 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BsB-yJ-FjP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-314" y="1472"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="ncQ-fF-juv">
+            <objects>
+                <viewController id="JAg-Sf-4Bw" customClass="DetailsViewController" customModule="flix_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eGw-Na-cwW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HTu-rf-gGv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RfU-iP-eKr">
+                                <rect key="frame" x="10" y="155" width="141" height="208"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97o-i9-hN9">
+                                <rect key="frame" x="159" y="279" width="235" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuu-X8-Tne">
+                                <rect key="frame" x="10" y="371" width="384" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Zsm-jk-UOK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XKc-43-Qdl"/>
+                    <connections>
+                        <outlet property="backDropImage" destination="HTu-rf-gGv" id="1HR-QZ-EA1"/>
+                        <outlet property="posterView" destination="RfU-iP-eKr" id="LgC-Oe-2VP"/>
+                        <outlet property="synopsisLabel" destination="iuu-X8-Tne" id="4nG-gl-zx0"/>
+                        <outlet property="titleLabel" destination="97o-i9-hN9" id="8NK-F3-cup"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MNn-8t-XeI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="434.78260869565219" y="1469.8369565217392"/>
         </scene>
         <!--Now Playing-->
         <scene sceneID="CUM-GO-uIW">
