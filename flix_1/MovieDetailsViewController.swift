@@ -19,6 +19,7 @@ class MovieDetailsViewController: UIViewController {
     
     
     var movie: [String:Any]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -48,10 +49,15 @@ class MovieDetailsViewController: UIViewController {
 //     MARK: - Navigation
 //     In a storyboard-based application, you will often want to do a little preparation before navigation
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//         Get the new view controller using segue.destination.
-//         Pass the selected object to the new view controller.
-//        print("Loading up ")
-//    }
+////         Get the new view controller using segue.destination.
+////         Pass the selected object to the new view controller.
+//        print("Loading up............................... ")
+//        // pass the selected movie to detailsviewController
+//        let webVC = segue.destination as! webViewController
+//        webVC.movie = movie["id"] as! String
+//        print(webVC.movie)
+
+    }
 
 
-}
+

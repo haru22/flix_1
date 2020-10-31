@@ -1,0 +1,374 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "webViewController"
+provides-nominal:
+- "6flix_117webViewControllerC"
+provides-member:
+- ["6flix_117webViewControllerC", ""]
+provides-dynamic-lookup:
+- "loadView"
+- "movie"
+- "trailerView"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "String"
+- "StringLiteralType"
+- "UIViewController"
+- "WKUIDelegate"
+- "WKWebView"
+- !private "WKWebViewConfiguration"
+- "webViewController"
+depends-member:
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "uiDelegate"]
+- !private ["So6CGRectV", "zero"]
+- !private ["s7CVarArgP", "WKWebView"]
+- !private ["s7CVarArgP", "WKWebViewConfiguration"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "trailerView"]
+- !private ["s7CVarArgP", "uiDelegate"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", "webView"]
+- ["s7CVarArgP", "webViewDidClose"]
+- !private ["s28CustomDebugStringConvertibleP", "WKWebView"]
+- !private ["s28CustomDebugStringConvertibleP", "WKWebViewConfiguration"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "trailerView"]
+- !private ["s28CustomDebugStringConvertibleP", "uiDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "webView"]
+- ["s28CustomDebugStringConvertibleP", "webViewDidClose"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "uiDelegate"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "WKWebView"]
+- !private ["s23CustomStringConvertibleP", "WKWebViewConfiguration"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "trailerView"]
+- !private ["s23CustomStringConvertibleP", "uiDelegate"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "webView"]
+- ["s23CustomStringConvertibleP", "webViewDidClose"]
+- !private ["Se", "uiDelegate"]
+- !private ["Se", "zero"]
+- !private ["SE", "uiDelegate"]
+- !private ["SE", "zero"]
+- !private ["SQ", "WKWebView"]
+- !private ["SQ", "WKWebViewConfiguration"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "trailerView"]
+- !private ["SQ", "uiDelegate"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- ["SQ", "webView"]
+- ["SQ", "webViewDidClose"]
+- !private ["SQ", "zero"]
+- !private ["s23ExpressibleByNilLiteralP", "uiDelegate"]
+- !private ["SH", "WKWebView"]
+- !private ["SH", "WKWebViewConfiguration"]
+- ["SH", ""]
+- !private ["SH", "init"]
+- !private ["SH", "trailerView"]
+- !private ["SH", "uiDelegate"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- ["SH", "webView"]
+- ["SH", "webViewDidClose"]
+- !private ["So8NSCodingP", "WKWebView"]
+- !private ["So8NSCodingP", "WKWebViewConfiguration"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "trailerView"]
+- !private ["So8NSCodingP", "uiDelegate"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "webView"]
+- ["So8NSCodingP", "webViewDidClose"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "WKWebView"]
+- !private ["So26NSExtensionRequestHandlingP", "WKWebViewConfiguration"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "trailerView"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "webView"]
+- ["So26NSExtensionRequestHandlingP", "webViewDidClose"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "WKWebView"]
+- !private ["So8NSObjectC", "WKWebViewConfiguration"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "loadView"]
+- ["So8NSObjectC", "movie"]
+- ["So8NSObjectC", "trailerView"]
+- !private ["So8NSObjectC", "uiDelegate"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "webView"]
+- ["So8NSObjectC", "webViewDidClose"]
+- !private ["So8NSObjectP", "WKWebView"]
+- !private ["So8NSObjectP", "WKWebViewConfiguration"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "trailerView"]
+- !private ["So8NSObjectP", "uiDelegate"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- ["So8NSObjectP", "webView"]
+- ["So8NSObjectP", "webViewDidClose"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sq", "uiDelegate"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "uiDelegate"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "uiDelegate"]
+- !private ["So21UIAppearanceContainerP", "WKWebView"]
+- !private ["So21UIAppearanceContainerP", "WKWebViewConfiguration"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "trailerView"]
+- !private ["So21UIAppearanceContainerP", "uiDelegate"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "webView"]
+- ["So21UIAppearanceContainerP", "webViewDidClose"]
+- !private ["So18UIContentContainerP", "WKWebView"]
+- !private ["So18UIContentContainerP", "WKWebViewConfiguration"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "trailerView"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "webView"]
+- ["So18UIContentContainerP", "webViewDidClose"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "uiDelegate"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "uiDelegate"]
+- !private ["So18UIFocusEnvironmentP", "WKWebView"]
+- !private ["So18UIFocusEnvironmentP", "WKWebViewConfiguration"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "trailerView"]
+- !private ["So18UIFocusEnvironmentP", "uiDelegate"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "webView"]
+- ["So18UIFocusEnvironmentP", "webViewDidClose"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "uiDelegate"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "uiDelegate"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "uiDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "WKWebView"]
+- !private ["So30UIPasteConfigurationSupportingP", "WKWebViewConfiguration"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "trailerView"]
+- !private ["So30UIPasteConfigurationSupportingP", "uiDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "webView"]
+- ["So30UIPasteConfigurationSupportingP", "webViewDidClose"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "WKWebView"]
+- !private ["So11UIResponderC", "WKWebViewConfiguration"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "loadView"]
+- ["So11UIResponderC", "movie"]
+- ["So11UIResponderC", "trailerView"]
+- !private ["So11UIResponderC", "uiDelegate"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "webView"]
+- ["So11UIResponderC", "webViewDidClose"]
+- !private ["So30UIResponderStandardEditActionsP", "WKWebView"]
+- !private ["So30UIResponderStandardEditActionsP", "WKWebViewConfiguration"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "trailerView"]
+- !private ["So30UIResponderStandardEditActionsP", "uiDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "webView"]
+- ["So30UIResponderStandardEditActionsP", "webViewDidClose"]
+- !private ["So16UIStateRestoringP", "WKWebView"]
+- !private ["So16UIStateRestoringP", "WKWebViewConfiguration"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "trailerView"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "webView"]
+- ["So16UIStateRestoringP", "webViewDidClose"]
+- !private ["So18UITraitEnvironmentP", "WKWebView"]
+- !private ["So18UITraitEnvironmentP", "WKWebViewConfiguration"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "trailerView"]
+- !private ["So18UITraitEnvironmentP", "uiDelegate"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "webView"]
+- ["So18UITraitEnvironmentP", "webViewDidClose"]
+- !private ["So23UIUserActivityRestoringP", "WKWebView"]
+- !private ["So23UIUserActivityRestoringP", "WKWebViewConfiguration"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "trailerView"]
+- !private ["So23UIUserActivityRestoringP", "uiDelegate"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "webView"]
+- ["So23UIUserActivityRestoringP", "webViewDidClose"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "uiDelegate"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "WKWebView"]
+- !private ["So16UIViewControllerC", "WKWebViewConfiguration"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loadView"]
+- ["So16UIViewControllerC", "movie"]
+- ["So16UIViewControllerC", "trailerView"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "webView"]
+- ["So16UIViewControllerC", "webViewDidClose"]
+- !private ["So12WKUIDelegateP", "WKWebView"]
+- !private ["So12WKUIDelegateP", "WKWebViewConfiguration"]
+- ["So12WKUIDelegateP", ""]
+- !private ["So12WKUIDelegateP", "trailerView"]
+- !private ["So12WKUIDelegateP", "view"]
+- ["So12WKUIDelegateP", "webView"]
+- ["So12WKUIDelegateP", "webViewDidClose"]
+- !private ["So9WKWebViewC", "init"]
+- !private ["So9WKWebViewC", "uiDelegate"]
+- !private ["So22WKWebViewConfigurationC", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WKWebView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WKWebViewConfiguration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trailerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uiDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webViewDidClose"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "WKWebView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "WKWebViewConfiguration"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trailerView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uiDelegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "webView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "webViewDidClose"]
+- !private ["s21_ObjectiveCBridgeableP", "uiDelegate"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "uiDelegate"]
+- ["6flix_117webViewControllerC", "String"]
+- ["6flix_117webViewControllerC", "WKWebView"]
+- !private ["6flix_117webViewControllerC", "WKWebViewConfiguration"]
+- ["6flix_117webViewControllerC", "deinit"]
+- ["6flix_117webViewControllerC", "init"]
+- ["6flix_117webViewControllerC", "loadView"]
+- ["6flix_117webViewControllerC", "movie"]
+- ["6flix_117webViewControllerC", "trailerView"]
+- !private ["6flix_117webViewControllerC", "view"]
+- ["6flix_117webViewControllerC", "viewDidLoad"]
+- ["6flix_117webViewControllerC", "webView"]
+- ["6flix_117webViewControllerC", "webViewDidClose"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "So12WKUIDelegateP"
+- !private "So9WKWebViewC"
+- !private "So22WKWebViewConfigurationC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+- "6flix_117webViewControllerC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/flix_1/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/flix_1/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/flix_1/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/flix_1/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/flix_1/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/haruna/Documents/iOSdev/flix_1/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/haruna/Documents/iOSdev/flix_1/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/flix_1/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1daf3613bef337ccfc3b55060c4fae07"

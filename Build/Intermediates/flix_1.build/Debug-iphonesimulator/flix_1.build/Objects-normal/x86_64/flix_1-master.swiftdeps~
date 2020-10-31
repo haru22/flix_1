@@ -1,12 +1,13 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "736142a6220976b4e15f1a968954b5ab"
-build_time: [1604073307, 902858000]
+build_time: [1604109987, 499561000]
 inputs:
-  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/MovieDetailsViewController.swift": [1604071197, 56094915]
-  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/AppDelegate.swift": [1582318637, 357396617]
-  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/SceneDelegate.swift": [1582318637, 361301190]
-  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/DetailsViewController.swift": [1604073306, 125942982]
-  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/MovieCell.swift": [1603254934, 363957998]
-  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/MoviesViewController.swift": [1603255018, 860192494]
-  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/MovieGridViewController.swift": [1604072075, 686376897]
-  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/MovieGridCell.swift": [1582948876, 727118227]
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/MovieDetailsViewController.swift": !dirty [1604109987, 446763663]
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/AppDelegate.swift": !dirty [1582318637, 357396617]
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/SceneDelegate.swift": !dirty [1582318637, 361301190]
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/DetailsViewController.swift": !dirty [1604073366, 483918722]
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/MovieCell.swift": !dirty [1603254934, 363957998]
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/webViewController.swift": !dirty [1604109964, 868600718]
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/MoviesViewController.swift": !dirty [1603255018, 860192494]
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/MovieGridViewController.swift": !dirty [1604076709, 732798014]
+  "/Users/haruna/Documents/iOSdev/flix_1/flix_1/MovieGridCell.swift": !dirty [1582948876, 727118227]
